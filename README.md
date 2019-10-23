@@ -1,4 +1,4 @@
-# CFD-based-WFLO
+# CFD-based WFLO
 Optimization framework for designing wind farms using computational fluid dynamics
 
 
