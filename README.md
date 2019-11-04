@@ -1,7 +1,7 @@
 # CFD-based WFLO
 Optimization framework for designing wind farms using computational fluid dynamics
 
-A description of the framework is described in the following papers.
+A description of the framework can be found in the following papers.
 
 Enrico G.A. Antonini, David A. Romero, Cristina H. Amon. "Continuous adjoint formulation for wind farm layout optimization: A 2D implementation", Applied Energy, 2018.
 
