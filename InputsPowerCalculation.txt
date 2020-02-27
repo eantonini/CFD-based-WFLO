@@ -1,0 +1,14 @@
+90	TurbineDiameter [m]
+80	HubHeight [m]
+145	TurbineBaseHeight [m]
+0.0018	SurfaceRoughness [m]
+2250	LateralLength (x) [m]
+2250	StreamwiseLenght (y) [m]
+700	Height (z) [m]
+9	Mesh resolution [m]
+1	Diffusion type (0 = laminar, 1 = turbulent, 2 = frozen-turbulence)
+3	ProblemDimensions (2 or 3)
+120	NumberOfProcessors
+2	Terrain type (0 = flat, 1 = Gaussian hill, 2 = complex terrain)
+50	Height of Gaussian hill [m]
+150	Spread of Gaussian hill [m]
