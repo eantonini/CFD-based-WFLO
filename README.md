@@ -39,6 +39,12 @@ If you need to manually specify OpenFOAM or MPI binary file paths, go to line 79
 
 ---
 
+TO COMPILE OPENFOAM APPLICATIONS
+
+Enter in each of the application folder and run wmake
+
+---
+
 TO RUN THE CODE
 
 mkdir TestCase;
