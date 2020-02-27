@@ -10,6 +10,12 @@ Enrico G.A. Antonini, David A. Romero, Cristina H. Amon. "Continuous adjoint for
 
 Enrico G.A. Antonini, David A. Romero, Cristina H. Amon. "Optimal design of wind farms in complex terrains using computational fluid dynamics and adjoint methods", Applied Energy, 2020.
 
+/*
+
+If you need a copy of the papers, please email me at eantonini@carnegiescience.edu
+
+*/
+
 ---
 
 OpenFOAM 6 (https://openfoam.org/release/6/), NLopt (https://nlopt.readthedocs.io/en/latest/), Python and Open MPI need to be installed as they are fundamental components of the framework.
