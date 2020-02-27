@@ -31,8 +31,8 @@ It will generate the following files:
 /*
 
 If you need to manually specify OpenFOAM or MPI binary file paths, go to line 797-799 of ./Codes/Source/Simulation.cpp and modify the strings as needed.
-- OFdir = OpenFOAM binary files (for example, "WM_PROJECT_DIR/platforms/linux64GccDPInt64Opt/bin/")
-- OFUdir = OpenFOAM user binary files (for example, "WM_PROJECT_USER_DIR/platforms/linux64GccDPInt32Opt/bin/")
+- OFdir = OpenFOAM binary files (for example, "$WM_PROJECT_DIR/platforms/linux64GccDPInt64Opt/bin/")
+- OFUdir = OpenFOAM user binary files (for example, "$WM_PROJECT_USER_DIR/platforms/linux64GccDPInt32Opt/bin/")
 - MPIdir = MPI binary files
 
 */
@@ -41,7 +41,7 @@ If you need to manually specify OpenFOAM or MPI binary file paths, go to line 79
 
 TO COMPILE OPENFOAM APPLICATIONS
 
-Enter in each of the application folderd and run wmake
+Enter in each of the application folderd and run wmake. Detailed instructions can be found here https://cfd.direct/openfoam/user-guide/v6-compiling-applications/
 
 ---
 
