@@ -1,3 +1,3 @@
 adjointIcoFoam.C
 
-EXE = /Carnegie/DGE/Homes/Users/eantonini/OpenFOAM/eantonini-6/platforms/linux64GccDPInt64Opt/bin/adjointIcoFoam
+EXE = WM_PROJECT_USER_DIR/platforms/linux64GccDPInt64Opt/bin/adjointIcoFoam
