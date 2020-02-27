@@ -796,10 +796,6 @@ void Simulation::runCommand(std::string command) {
 void Simulation::runFoamCommand(std::string directory, std::string command, std::string options, int np, bool userDefined) {
 	std::string OFdir = "";
 	std::string OFUdir = "";
-	//std::string OFUdir = "/home/c/camon/enrico8/OpenFOAM/enrico8-3.0.1/platforms/linux64GccDPInt32Opt/bin/";
-	//std::string OFUdir = "/home/c/camon/enrico8/OpenFOAM/enrico8-5.0/platforms/linux64GccDPInt32Opt/bin/";
-	//std::string OFUdir = "/Carnegie/DGE/Homes/Users/eantonini/OpenFOAM/eantonini-6/platforms/linux64GccDPInt64Opt/bin/";
-        //std::string MPIdir = "/opt/sharcnet/openmpi/2.1.1/gcc630-std/bin/";
 	std::string MPIdir = "";
 	int delayed = 0;
 	int time;
