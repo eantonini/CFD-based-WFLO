@@ -41,7 +41,7 @@ If you need to manually specify OpenFOAM or MPI binary file paths, go to line 79
 
 TO COMPILE OPENFOAM APPLICATIONS
 
-Enter in each of the application folderd and run wmake. Detailed instructions can be found here https://cfd.direct/openfoam/user-guide/v6-compiling-applications/
+Enter in each of the application folders and run wmake. Detailed instructions can be found here https://cfd.direct/openfoam/user-guide/v6-compiling-applications/
 
 ---
 
