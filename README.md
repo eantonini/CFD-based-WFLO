@@ -29,10 +29,12 @@ It will generate the following files:
 - SLSQP (optimizer)
 
 /*
+
 If you need to manually specify OpenFOAM or MPI binary file paths, go to line 797-799 of ./Codes/Source/Simulation.cpp and modify the strings as needed.
 - OFdir = OpenFOAM binary files (for example, "WM_PROJECT_DIR/platforms/linux64GccDPInt64Opt/bin/")
 - OFUdir = OpenFOAM user binary files (for example, "WM_PROJECT_USER_DIR/platforms/linux64GccDPInt32Opt/bin/")
 - MPIdir = MPI binary files
+
 */
 
 ---
@@ -40,6 +42,8 @@ If you need to manually specify OpenFOAM or MPI binary file paths, go to line 79
 TO RUN THE CODE
 
 mkdir TestCase;
+
+cp ./InputExample/* ./TestCase/.;
 
 cp ./Codes/GradientCalculation ./Codes/PowerCalculation ./Codes/SLSQP ./Codes/RemapTerrain.py ./Codes/RemapTurbines.py ./TestCase/.;
 
