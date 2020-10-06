@@ -24,9 +24,8 @@ OpenFOAM 6 (https://openfoam.org/release/6/), NLopt (https://nlopt.readthedocs.i
 
 TO COMPILE THE OPTIMIZATION CODE
 
-cd ./Codes;
-
-make;
+* `>> cd ./Codes`
+* `>> make`
 
 It will generate the following files:
 - CDGradientCalculation (to calulate the gradient using a central difference scheme - not needed for the optimization using adjoint methods)
@@ -53,12 +52,8 @@ Enter in each of the application folders and run wmake. Detailed instructions ca
 
 TO RUN THE CODE
 
-mkdir TestCase;
-
-cp ./InputExample/* ./TestCase/.;
-
-cp ./Codes/GradientCalculation ./Codes/PowerCalculation ./Codes/SLSQP ./Codes/RemapTerrain.py ./Codes/RemapTurbines.py ./TestCase/.;
-
-cd ./TestCase;
-
-./SLSQP;
+* `>> mkdir TestCase`
+* `>> cp ./InputExample/* ./TestCase/.`
+* `>> cp ./Codes/GradientCalculation ./Codes/PowerCalculation ./Codes/SLSQP ./Codes/RemapTerrain.py ./Codes/RemapTurbines.py ./TestCase/.`
+* `>> cd ./TestCase`
+* `>> ./SLSQP`
