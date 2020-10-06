@@ -12,13 +12,13 @@ Enrico G.A. Antonini, David A. Romero, Cristina H. Amon. "Optimal design of wind
 
 If you need a copy of the papers, please email me at eantonini@carnegiescience.edu
 
----
+
+### Required software
 
 OpenFOAM 6 (https://openfoam.org/release/6/), NLopt (https://nlopt.readthedocs.io/en/latest/), Python and Open MPI need to be installed as they are fundamental components of the framework.
 
----
 
-### TO COMPILE THE OPTIMIZATION CODE
+### To compile the optimization code
 
 * `>> cd ./Codes`
 * `>> make`
@@ -36,15 +36,12 @@ If you need to manually specify OpenFOAM or MPI binary file paths, go to lines 7
 - MPIdir = MPI binary files
 
 
----
-
-TO COMPILE OPENFOAM APPLICATIONS
+### To compile OpenFOAM applications
 
 Enter in each of the application folders and run wmake. Detailed instructions can be found here https://cfd.direct/openfoam/user-guide/v6-compiling-applications/
 
----
 
-TO RUN THE CODE
+### To run the code
 
 * `>> mkdir TestCase`
 * `>> cp ./InputExample/* ./TestCase/.`
